@@ -23,7 +23,7 @@
     "tailwindcss": "^3.4.16",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://frontend-bdashboard-gyg3fpe0haehdqf9.eastasia-01.azurewebsites.net",
+  "homepage": "https://bitbucketdashboard-b0a4b3hwfegearbz.canadacentral-01.azurewebsites.net",
   "scripts": {
     "postinstall": "npm run build && mv build/* /home/site/wwwroot/",
     "start": "react-scripts start",
