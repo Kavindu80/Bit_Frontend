@@ -25,7 +25,7 @@
   },
   "homepage": "https://bitbucketdashboard-b0a4b3hwfegearbz.canadacentral-01.azurewebsites.net",
   "scripts": {
-    "postinstall": "npm run build && mv build/* /home/site/wwwroot/",
+    "postinstall": "npm run build && cp -r build/* /home/site/wwwroot/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
