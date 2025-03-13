@@ -59,7 +59,7 @@ function App() {
         path="/contributors"
         element={<ContributorsDashboard />}/>
       <Route path="/workspace/:workspaceName" element={<BitbucketDashboard />} />
-      <Route path="/admin/manage" element={<Manage />} />c
+      <Route path="/admin/manage" element={<Manage />} />
     </Routes>
 
   );
